@@ -244,3 +244,9 @@
 .platform{background:#fff}.capabilities-section{background:#f9f6f1}
 .pilot-section{background:#f9f6f1}.pilot-steps .step-line{background:#002d2a;border-color:#002d2a}.faq-background{background:#fff}
 .faq summary svg{color:#002d2a}
+@media(min-width:701px){.demo-intro{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}.demo-intro>p{max-width:none}}
+.privacy-section h2{white-space:normal}
+.privacy-section h2{font-size:clamp(36px,3.3vw,50px);line-height:1.17;letter-spacing:-2px}
+@media(max-width:700px){.privacy-section h2{font-size:34px;letter-spacing:-1.5px}}
+.tasks-note{max-width:850px;margin-top:36px;color:var(--muted);font-size:14px;line-height:1.8}.boundary-note p{font-size:15px;line-height:1.8}@media(max-width:700px){.tasks-note{font-size:13px}.boundary-note p{font-size:14px}}
+@media(min-width:701px){.demo-intro{grid-template-columns:minmax(0,3fr) minmax(0,2fr)}}
