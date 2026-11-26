@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#002d2a">
+  <meta name="description" content="Проверьте карты программ ЭКО до экспертизы ОМС. QRATOS помогает обнаружить дефекты документации, которые могут повлиять на оплату случая.">
+  <meta property="og:title" content="QRATOS — проверка медицинских карт программ ЭКО">
+  <meta property="og:description" content="Предварительная проверка карт программ ЭКО перед внешней экспертизой. Замечания и их основания в одном разборе.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qratos-medical-review.guadalupe-woodrow.chatgpt.site/">
+  <link rel="canonical" href="https://qratos-medical-review.guadalupe-woodrow.chatgpt.site/">
+  <title>QRATOS — проверка медицинских карт программ ЭКО</title>
+  <link rel="icon" href="assets/favicon.svg?v=q-mark-11" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=section-backgrounds-4">
+  <script src="app.js?v=ivf-1" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip">Перейти к содержанию</a>
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-document" viewBox="0 0 24 24"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8zM14 3v5h5M9 12h6M9 16h6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6z"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="m10 14 4-4M8 16l-1 1a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m0 2 1-1a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0" transform="translate(2 0)"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </svg>
+  <main id="main">
+  <div class="dark-top">
+    <header class="header wrap">
+      <a class="brand" href="#" aria-label="QRATOS — на главную"><img class="brand-symbol" src="assets/favicon.svg?v=q-mark-11" alt="" width="43" height="43">QRATOS</a>
+      <nav aria-label="Основная навигация" id="navigation"><a href="#tasks">Задачи</a><a href="#platform">Решение</a><a href="#demo">Как работает</a><a href="#audience">Для кого</a><a href="#start">Условия</a><a href="#faq">Вопросы</a></nav>
+      <a class="button button-small button-outline header-contact" href="#contact">Обсудить пилот</a>
+      <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+    </header>
+      <section class="hero wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="mini-cross" aria-hidden="true">+</span> Автоматизированная экспертиза медицинской документации</p>
+          <h1 id="hero-title">ИИ-проверка медкарт<br><em>программ ЭКО</em></h1>
+          <p class="hero-description">QRATOS помогает проверять обезличенные медкарты по применимым правилам на основе приказа Минздрава России №&nbsp;803н и профильных клинических рекомендаций. У каждого замечания есть основание для разбора.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#contact">Подключить у себя в клинике</a></div>
+        </div>
+        <div class="hero-visual" aria-label="Иллюстрация: связь замечания с фрагментами документов">
+          <div class="visual-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="source-card source-back"><span class="source-icon"><svg><use href="#i-document"/></svg></span><span>Выписной эпикриз<small>Документы случая</small></span><span class="source-check">✓</span></div>
+          <div class="source-card source-front"><div class="source-head"><svg><use href="#i-document"/></svg> Дневник наблюдения<span>Фрагмент</span></div><div class="mock-line long"></div><div class="mock-line"></div><p>Дата исследования: <mark>12.05.2026</mark></p><div class="mock-line mid"></div></div>
+          <div class="connector-line"></div>
+          <div class="finding-float"><div class="float-top"><span class="float-icon"><svg><use href="#i-link"/></svg></span><span>Найдено расхождение<small>Требует внимания эксперта</small></span></div><p>В документах указаны разные даты одного исследования.</p><div class="float-bottom"><span>Замечание</span><span class="chain-dots" aria-hidden="true">·········</span><span>Источник</span><svg><use href="#i-check"/></svg></div></div>
+        </div>
+      </section>
+      <div class="hero-bottom wrap"><span><svg><use href="#i-search"/></svg>Находит, что проверить</span><span><svg><use href="#i-link"/></svg>Показывает первоисточник</span><span><svg><use href="#i-check"/></svg>Помогает разобрать замечания</span></div>
+  </div>
+  <section id="tasks" class="section narrative" aria-labelledby="tasks-title">
+    <div class="wrap">
+      <p class="eyebrow section-label">Какие задачи мы решаем</p><h2 id="tasks-title">ТОП-3 боли клиник ЭКО — автоматизированы и закрыты</h2>
+      <p class="intro-description">По программе госгарантий на 2026 год страховые медицинские организации проводят экспертизу качества всех случаев ЭКО, выполненных по базовой программе ОМС. Медицинская карта помогает подтвердить этапы и объём оказанной помощи.</p>
+      <div class="narrative-grid">
+        <article>
+          <h3>Ошибки выявляются слишком поздно</h3>
+          <p>Если пропуск в карте обнаруживают только при внешней экспертизе, у команды меньше времени выяснить, что произошло. Внутренняя проверка QRATOS помогает заранее увидеть незаполненные поля, отсутствующие документы и расхождения в датах.</p>
+        </article>
+        <article>
+          <h3>Клинике грозят финансовые санкции</h3>
+          <p>Нарушения, установленные при контроле ОМС, могут повлечь штраф при наличии предусмотренных оснований. QRATOS показывает эксперту, по какому правилу возникло замечание и какие записи нужно сверить.</p>
+        </article>
+        <article>
+          <h3>Оплату случая могут снизить или отклонить</h3>
+          <p>Пробелы в документах могут помешать подтвердить заявленный объём помощи. QRATOS помогает до подачи реестра счетов проверить, есть ли в выгрузке протоколы и другие сведения, на которые опирается отчётность.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<section id="platform" class="section platform" aria-labelledby="platform-title">
+    <div class="wrap">
+    <div class="section-intro"><p class="eyebrow section-label">Решение</p><h2 id="platform-title">Анализ медицинских карт и контроль ведения медицинской документации</h2><p class="intro-description">QRATOS анализирует полноту, хронологию и согласованность сведений в документах одного случая программы ЭКО. Система выявляет возможные ошибки, повторяющиеся дефекты, отсутствующие сведения и противоречия между документами.</p></div>
+    <div class="feature-grid">
+      <article><div class="feature-icon"><svg><use href="#i-document"/></svg></div><h3>Замечать пропуски</h3><p>Проверяйте наличие документов и обязательных сведений. Недостаток данных явно отмечается в результате.</p><span class="feature-foot">Полнота документации</span></article>
+      <article><div class="feature-icon"><svg><use href="#i-clock"/></svg></div><h3>Сопоставлять записи</h3><p>Видите расхождения в датах и сведениях между документами одного случая — вместе с контекстом.</p><span class="feature-foot">Согласованность данных</span></article>
+      <article><div class="feature-icon"><svg><use href="#i-link"/></svg></div><h3>Понимать основание</h3><p>От замечания переходите к фрагменту карты. Проверяйте применённое правило и использованные данные.</p><span class="feature-foot">Проверяемый результат</span></article>
+    </div>
+    </div>
+  </section>
+
+<section id="capabilities" class="section capabilities-section" aria-labelledby="capabilities-title">
+  <div class="wrap capabilities-layout">
+    <div><h2 id="capabilities-title">Виды проверок медицинской документации</h2></div>
+    <div class="faq-items">
+      <details open><summary>Полнота карты и протоколов<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Проверка показывает, какие документы и поля, предусмотренные применимым правилом, найдены в переданном пакете.</p></details>
+      <details><summary>Обследования и сроки результатов<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Даты результатов сверяются с этапом программы по применимому правилу. Эксперт видит, если для расчёта не хватает данных.</p></details>
+      <details><summary>Согласия и документы этапов ЭКО<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>При наличии правила можно проверить, найдено ли согласие или протокол этапа в переданной выгрузке.</p></details>
+      <details><summary>Хронология и согласованность записей<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Если в двух документах об одном событии указаны разные даты или сведения, можно сравнить исходные фрагменты.</p></details>
+      <details><summary>Критерии приказа № 803н и клинических рекомендаций<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Для проверенного пункта видны применённое правило, использованные данные и результат. Клинические вопросы передаются специалисту.</p></details>
+      <details><summary>Экспертный разбор и история проверки<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Эксперт сверяет замечание с картой. Версия правила и контекст анализа помогают восстановить ход проверки.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="norms" class="section narrative norms-section" aria-labelledby="norms-title">
+  <div class="wrap">
+    <h2 id="norms-title">Проверка с учётом нормативных требований</h2>
+    <p class="intro-description">QRATOS применяет к документации программ ЭКО подходящие правила на основе приказа № 803н, клинических рекомендаций и экспертных критериев. Для каждого результата доступны версия правила и источник.</p>
+    <div class="narrative-grid">
+      <article><h3>Приказ Минздрава России №&nbsp;803н</h3><p>Основной источник правил для проверки документации, обследований и этапов программ ЭКО.</p></article>
+      <article><h3>Профильные клинические рекомендации</h3><p>В частности, рекомендации по женскому и мужскому бесплодию. Проверяются критерии, для которых есть утверждённые правила.</p></article>
+      <article>
+        <h3>Хайпер QRATOS</h3>
+        <p>Собственный реестр правил проверки медкарт программ ЭКО. Мы проверили и систематизировали замечания ведущих врачей-экспертов и на их основе сформулировали критерии проверки медицинских карт.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="approach" class="section wrap approach" aria-labelledby="approach-title">
+    <div class="section-intro"><h2 id="approach-title">Ваши 4 шага к беспроблемной документации</h2><p class="intro-description">Простой и прозрачный процесс — без сложного внедрения.</p></div>
+    <div class="workflow workflow-four"><article><div class="workflow-symbol"><svg><use href="#i-document"/></svg></div><h3>Загрузите карту</h3><p>Уже обезличенные документы поступают в систему. QRATOS выделяет факты и связывает записи одного случая.</p></article><article><div class="workflow-symbol"><svg><use href="#i-search"/></svg></div><h3>Получите разбор</h3><p>Формализованные правила проверяют данные. У каждого результата есть основание и ссылки на источники.</p></article><article><div class="workflow-symbol"><svg><use href="#i-check"/></svg></div><h3>Оцените замечания</h3><p>Эксперт проверяет доказательства, разбирает неоднозначности и фиксирует свою оценку.</p></article><article><div class="workflow-symbol"><svg aria-hidden="true"><use href="#i-link"/></svg></div><h3>Вернитесь к результату</h3><p>Отчёт связывает результат с правилом, документами и контекстом анализа.</p></article></div>
+    <div class="boundary-note"><img class="boundary-mark" src="assets/logo-light-background.svg" alt="" width="35" height="35"><p>Языковая модель извлекает и объясняет факты. Статусы соответствия формирует механизм правил. Недостающие или спорные сведения требуют проверки.</p></div>
+  </section>
+
+
+
+
+
+
+
+<section id="demo" class="demo-section section" aria-labelledby="demo-title">
+    <div class="wrap"><div class="demo-intro"><div><p class="eyebrow section-label">Как работает</p><h2 id="demo-title">Автоматизированная экспертиза медицинской документации</h2></div><p>Автоматизированная проверка медицинских карт: полнота, сроки, противоречия и дефекты оформления — с экспертными доказательствами для врача.</p></div>
+      <div class="app-window animated-review" id="demo-panel" aria-label="Автоматическая демонстрация разбора замечаний">
+        <div class="app-top"><span class="app-brand"><img class="brand-symbol small" src="assets/logo-light-background.svg" alt="" width="43" height="43">QRATOS</span><span class="app-breadcrumb">Проверка карты программы ЭКО</span><span class="demo-badge">Демонстрационный пример</span><span class="mobile-demo-document"><svg aria-hidden="true"><use href="#i-document"/></svg><span id="mobile-document-name">Дневник наблюдения</span></span></div>
+        <div class="app-body">
+          <aside class="document-list" aria-label="Документы примера"><div class="panel-heading">Документы случая <span>15</span></div><div class="timeline-heading">Программа ЭКО · учебный случай</div><div id="demo-documents"></div></aside>
+          <div class="document-view"><div class="document-toolbar"><svg><use href="#i-search"/></svg><span>Медицинская карта</span><span class="toolbar-evidence">Доказательства <span id="evidence-count">1 / 2</span></span></div><div class="paper" id="demo-source" aria-label="Вымышленная медицинская карта"></div><div class="demo-nav"><span class="demo-control demo-prev">‹ <span>Предыдущее замечание</span></span><span id="finding-count">1 / 3</span><span class="demo-control demo-next"><span>Следующее замечание</span> ›</span></div></div>
+          <aside class="findings-panel" aria-label="Замечания примера"><div class="panel-heading">Замечания<span>Всего 3</span></div><div class="demo-finding-scroll"><div id="demo-finding"></div><div class="demo-other-findings"></div></div><div class="demo-decisions"><span class="demo-control demo-reject">Отклонить</span><span class="demo-control demo-confirm">Подтвердить</span></div></aside>
+        </div><div class="demo-cursor" aria-hidden="true"><svg viewBox="0 0 24 28"><path d="M3 2v19l5-4 4 8 3-1.5-4-8 7-.5z" fill="#002d2a" stroke="white" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+      </div>
+    </div>
+  </section>
+
+<section id="integration" class="section narrative review-steps" aria-labelledby="integration-title">
+  <div class="wrap">
+    <h2 id="integration-title">Как QRATOS проверяет медицинскую карту</h2>
+    <p class="intro-description">От обезличенной выгрузки карты программы ЭКО до отчёта, который можно использовать для внутреннего контроля перед экспертизой ОМС.</p>
+    <ol class="review-steps-grid">
+      <li>
+        <article>
+          <h3>Безопасная загрузка карты</h3>
+          <ul>
+            <li>Клиника обезличивает документы до передачи в QRATOS.</li>
+            <li>Выгрузку из МИС можно загрузить в веб-кабинете или передать через API по согласованному формату.</li>
+            <li>Если система обнаружит прямые идентификаторы пациента, обработка остановится до анализа.</li>
+          </ul>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h3>Анализ документов и проверка правил</h3>
+          <ul>
+            <li>QRATOS связывает документы одного случая и выстраивает хронологию.</li>
+            <li>Языковая модель помогает извлечь сведения об обследованиях, протоколах и этапах программы ЭКО.</li>
+            <li>Механизм правил проверяет применимые критерии приказа №&nbsp;803н и профильных клинических рекомендаций.</li>
+          </ul>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h3>Разбор замечаний экспертом</h3>
+          <ul>
+            <li>Система отмечает пропуски, неполные записи и противоречия.</li>
+            <li>Из замечания можно перейти к исходной записи и посмотреть, какое правило применилось.</li>
+            <li>Спорные случаи и случаи с недостаточными данными передаются на экспертную проверку.</li>
+          </ul>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h3>Отчёт и история проверки</h3>
+          <ul>
+            <li>Команда получает сводку результатов и список замечаний в веб-кабинете.</li>
+            <li>В истории проверки сохраняются версия правила, использованные данные и основание вывода.</li>
+            <li>К отчёту можно вернуться при повторном разборе карты или подготовке к экспертизе.</li>
+          </ul>
+        </article>
+      </li>
+    </ol>
+    <div class="review-steps-actions">
+      <a class="button button-dark" href="#contact">Запросить демонстрацию</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="privacy" class="privacy-section section" aria-labelledby="privacy-title"><div class="wrap privacy-layout"><div><h2 id="privacy-title">Проверка обезличенной<br><em>документации</em></h2><p class="privacy-lead">В QRATOS поступает уже обезличенная карта. Связь с реальным пациентом остаётся в медицинской информационной системе клиники.</p><div class="privacy-points"><div><svg><use href="#i-shield"/></svg><p><strong>Проверка на входе</strong>При обнаружении прямых идентификаторов дальнейшая обработка останавливается.</p></div><div><svg><use href="#i-link"/></svg><p><strong>След проверки</strong>Результат связан с правилом, его версией, источником и контекстом анализа.</p></div></div></div><div class="privacy-visual" aria-label="Иллюстрация обезличенной карты"><div class="privacy-document"><div class="privacy-document-head"><svg><use href="#i-shield"/></svg><span>Обезличенная карта</span><span class="privacy-doc-q">Q</span></div><div class="redacted-row"><span>Пациент</span><span class="redacted" aria-label="Имя скрыто"></span></div><div class="redacted-row"><span>Контактные данные</span><span class="redacted shorter" aria-label="Контакты скрыты"></span></div><div class="privacy-divider"></div><p class="privacy-doc-label">ДЛЯ ПРОВЕРКИ ДОСТУПНЫ</p><div class="safe-data"><span>Документы и факты</span><svg><use href="#i-check"/></svg></div><div class="safe-data"><span>Даты и последовательность</span><svg><use href="#i-check"/></svg></div><div class="safe-data"><span>Применимые правила</span><svg><use href="#i-check"/></svg></div></div><div class="privacy-seal"><svg><use href="#i-shield"/></svg> Личность остаётся в клинике</div></div></div></section>
+
+<section id="audience" class="section narrative audience-section" aria-labelledby="audience-title">
+  <div class="wrap">
+    <p class="eyebrow section-label">Для кого</p><h2 id="audience-title">Каждый участник процесса получает свой срез результата — от управленческой аналитики до понятных замечаний по конкретному документу</h2>
+    <p class="intro-description">Руководители, служба качества и врачи получают понятные результаты проверки для своих задач — от контроля рисков до разбора конкретного замечания.</p>
+    <div class="narrative-grid">
+      <article><h3>Руководитель и главный врач</h3><p>Организуют проверку карт до подачи на оплату по ОМС и оценивают, какие замечания стоит выявлять раньше.</p></article>
+      <article><h3>Служба качества и врач-эксперт</h3><p>Сверяют замечания с исходными записями и разбирают спорные случаи.</p></article>
+      <article><h3>Заведующий отделением ВРТ</h3><p>Разбирает оформление протоколов с командой и даёт обратную связь по конкретным записям.</p></article>
+      <article><h3>Врач-репродуктолог</h3><p>Видит, какие документы или сведения стоит уточнить и почему.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="start" class="section pilot-section" aria-labelledby="pilot-title"><div class="wrap pilot-layout"><div><p class="eyebrow section-label">Условия</p><h2 id="pilot-title">Выберите формат пилота для вашей клиники</h2><p class="pilot-description">Стоимость зависит от объёма карт, перечня проверок, форматов выгрузки и задач интеграции. Условия согласуем с клиникой до начала пилота.</p><a class="button button-dark" href="#contact">Запросить условия пилота</a><p class="scope-note">На первом разговоре определим, какие карты программ ЭКО, документы и сценарии включить в пилот.</p></div><div class="pilot-steps"><article><span class="step-line"></span><h3>Разберём ваш процесс</h3><p>Какие карты проверяете, что важно найти и как сейчас работает эксперт.</p></article><article><span class="step-line"></span><h3>Согласуем границы пилота</h3><p>Источники данных, обезличивание, набор правил и критерии оценки результата.</p></article><article><span class="step-line"></span><h3>Проверим на примерах</h3><p>Разберём обезличенные случаи вместе с вашей командой и оценим полезность замечаний.</p></article></div></div></section>
+
+<div class="faq-background"><section id="faq" class="section wrap faq" aria-labelledby="faq-title"><div><p class="eyebrow section-label">Вопросы</p><h2 id="faq-title">Ответы на частые вопросы</h2></div><div class="faq-items"><details><summary>Какие карты поддерживаются?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>QRATOS проверяет карты программ ЭКО. Сценарии пилота и состав документов согласуем с клиникой.</p></details><details><summary>По каким требованиям проверяется карта?<svg aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Основной источник — приказ Минздрава России №&nbsp;803н. Дополнительные основания берутся из нормативной базы QRATOS и профильных клинических рекомендаций в пределах утверждённых правил.</p></details><details><summary>QRATOS заменяет медицинского эксперта?<svg><use href="#i-plus"/></svg></summary><p>QRATOS помогает с предварительной проверкой документации. Система не ставит диагнозы, не назначает лечение и не принимает решение о проведении процедуры. Медицинскую и экспертную оценку выполняет специалист.</p></details><details><summary>Что происходит, если данных недостаточно?<svg><use href="#i-plus"/></svg></summary><p>Недостающие или противоречивые сведения явно отражаются в результате и передаются на разбор. Отсутствие данных не считается подтверждением соответствия.</p></details><details><summary>Нужна ли интеграция с МИС для старта?<svg><use href="#i-plus"/></svg></summary><p>Начать можно с ручной загрузки уже обезличенной карты в HTML и доступной структурированной выгрузки JSON. Форматы и состав пакета согласуем на старте. Более глубокая интеграция зависит от возможностей вашей МИС.</p></details><details><summary>Можно ли проверить соблюдение всех требований?<svg><use href="#i-plus"/></svg></summary><p>Проверка ограничена согласованным набором формализованных правил и доступными данными. Результат не является гарантией полного нормативного соответствия и не заменяет медицинскую или юридическую экспертизу.</p></details><details><summary>Как определяется стоимость?<svg><use href="#i-plus"/></svg></summary><p>Объём пилота, набор проверок, подключение и поддержку обсуждаем после знакомства с вашим процессом. Условия и критерии результата согласуем до запуска.</p></details></div></section></div>
+
+<section id="contact" class="contact-section section"><div class="wrap"><p class="eyebrow">Давайте посмотрим на вашу задачу</p><div class="contact-layout"><h2>Готовы сократить штрафы и повысить качество документации?</h2><div><p>Покажем, как QRATOS помогает находить возможные ошибки в медицинских документах и снижать риски финансовых потерь. Расскажем о кейсах реального внедрения и обсудим проверку карт программ ЭКО в вашей клинике.</p><div class="contact-actions"><a class="button button-primary" href="https://t.me/Gelfand_R" target="_blank" rel="noopener noreferrer">Обсудить пилот в Telegram</a></div><a class="contact-person" href="https://t.me/Gelfand_R" target="_blank" rel="noopener noreferrer"><img src="assets/roman-gelfand.jpg" alt="" width="56" height="56"><span class="contact-person-info"><strong>Роман Гельфанд</strong><span>@Gelfand_R</span></span></a></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-content"><p class="footer-legal">© <span id="year">2026</span> Все права защищены.<br>ООО «Айти Клиник»<br>ОГРН 5077746751935</p><a class="brand" href="#" aria-label="QRATOS — на главную"><img class="brand-symbol" src="assets/favicon.svg?v=q-mark-11" alt="" width="43" height="43">QRATOS</a></div></footer>
+</body>
+</html>

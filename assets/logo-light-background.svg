@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="28" cy="28" r="25" fill="#002d2a"/>
+  <defs><clipPath id="tail-clip"><path d="M44 32 C49.5 32 54 36.5 54 42 V61 L46.2 51 C45.5 51.2 44.7 51.3 44 51.3 C38.5 51.3 34 47 34 41.7 C34 36.3 38.5 32 44 32 Z"/></clipPath></defs>
+  <path d="M44 32 C49.5 32 54 36.5 54 42 V61 L46.2 51
+           C45.5 51.2 44.7 51.3 44 51.3 C38.5 51.3 34 47 34 41.7
+           C34 36.3 38.5 32 44 32 Z"
+        transform="translate(28 28) rotate(-17.2415) scale(1.8) translate(-44 -42)" fill="#d7f78a" stroke="#002d2a" stroke-width="4.6" stroke-linejoin="miter" clip-path="url(#tail-clip)"/>
+</svg>
